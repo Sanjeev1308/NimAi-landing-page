@@ -4,8 +4,9 @@ import HeroSection from "@/components/HeroSection";
 import Guarantees from "@/components/Guarantees";
 import ContactUs from "@/components/ContactUs";
 import AboutUs from "@/components/AboutUs";
-import WorkingLogo from "@/components/WorkingLogo";
 import { testimonials } from "@/utils/data";
+import Stats from "@/components/Stats";
+import Blog from "@/components/Blog";
 
 export default function Home() {
   return (
@@ -15,10 +16,11 @@ export default function Home() {
       <div className="px-4 lg:px-8 space-y-14 pb-10">
         <HeroSection />
         <AboutUs />
-        <WorkingLogo />
+        <Stats />
         <CreativeProcess />
         <Guarantees />
         <Testimonials speed="slow" items={testimonials} direction="right" />
+        <Blog />
         <ContactUs />
       </div>
     </>

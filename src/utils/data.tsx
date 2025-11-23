@@ -3,40 +3,28 @@ import { FaCode, FaStopwatch, FaTools } from "react-icons/fa";
 export const services = [
   {
     icon: "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3T6Q7Hj10F3i5EKgaZfklhxoT7pYUjVycDdP2e",
-    title: "UI Design",
+    title: "Cloud",
     description:
-      "Craft visually stunning and user-friendly interfaces for your digital products with our UI design services.",
+      "Scalable cloud infrastructure solutions designed to optimize your business operations and reduce infrastructure costs.",
   },
   {
     icon: "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3TQ4lkqEIPvWxodpetk7MAU2Y64L0nbHimhwFJ",
-    title: "UX Design",
+    title: "Data and AI",
     description:
-      "Enhance user satisfaction by improving usability and accessibility through our UX design services.",
+      "Harness the power of artificial intelligence and advanced data analytics to drive intelligent business decisions and innovation.",
   },
   {
     icon: "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3TfCvbh57xJlUBTxoKNjdRwC7LA3DHVrqEPein",
-    title: "Web Development",
+    title: "Security",
     description:
-      "Bring your ideas to life with our top-notch web development services tailored to your business needs.",
+      "Comprehensive security solutions to protect your digital assets with advanced threat detection and compliance management.",
   },
   {
     icon: "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3TnlcGIRbF1kYxjJELTtgXZWh9miKUpGfMORAy",
-    title: "Graphic Design",
+    title: "Modern Work",
     description:
-      "Elevate your brand with eye-catching visuals created through our professional graphic design services.",
-  },
-  {
-    icon: "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3TYvmY1x2ztbx9CFSVajsW0upreEoGcmR7dvH5",
-    title: "Logo Design",
-    description:
-      "Create a memorable brand identity with a unique and impactful logo designed just for you.",
-  },
-  {
-    icon: "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3TM2gu6OTgIBdjvy3btomulL6as7eT40nOF9Nf",
-    title: "Video Editing",
-    description:
-      "Engage your audience with high-quality videos edited to perfection with our video editing services.",
-  },
+      "Enable your workforce with modern collaboration tools and productivity solutions for seamless remote and hybrid work environments.",
+  }
 ];
 
 export const features = [
@@ -181,7 +169,7 @@ export const testimonials = [
     name: "Abhishek Singh",
     title: "Business Manager",
     quote:
-      "Axis Buddy is a trusted partner for innovative design. They consistently deliver top-notch quality that drives results.",
+      "NimAi is a trusted partner for innovative design. They consistently deliver top-notch quality that drives results.",
   },
   {
     imageUrl:
@@ -189,7 +177,7 @@ export const testimonials = [
     name: "Sahil Kumar Dev",
     title: "Founder & CEO",
     quote:
-      "As the founder, I value creativity and innovation. Axis Buddy's designs have elevated our projects and impressed our clients every time.",
+      "As the founder, I value creativity and innovation. NimAi's designs have elevated our projects and impressed our clients every time.",
   },
   {
     imageUrl:
@@ -197,7 +185,7 @@ export const testimonials = [
     name: "Abhishek Goswami",
     title: "Video Editor",
     quote:
-      "Axis Buddy's video editing services are unmatched. Their attention to detail and creativity have helped us create engaging content.",
+      "NimAi's video editing services are unmatched. Their attention to detail and creativity have helped us create engaging content.",
   },
   {
     imageUrl:
@@ -205,7 +193,7 @@ export const testimonials = [
     name: "Riya Verma",
     title: "Product Manager",
     quote:
-      "Managing products requires attention to detail, and Axis Buddy's solutions streamline our workflow and exceed expectations.",
+      "Managing products requires attention to detail, and NimAi's solutions streamline our workflow and exceed expectations.",
   },
   {
     imageUrl:
@@ -213,6 +201,75 @@ export const testimonials = [
     name: "Arjun Singh",
     title: "Client",
     quote:
-      "Working with Axis Buddy has been a game-changer. Their designs perfectly align with our brand's vision and goals.",
+      "Working with NimAi has been a game-changer. Their designs perfectly align with our brand's vision and goals.",
+  },
+];
+
+export const blogs = [
+  {
+    id: 1,
+    title: "Cloud Infrastructure: The Future of Business Operations",
+    excerpt: "Discover how cloud solutions are transforming modern businesses and reducing operational costs.",
+    image: "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3T6Q7Hj10F3i5EKgaZfklhxoT7pYUjVycDdP2e",
+    author: "Sahil Kumar Dev",
+    date: "Nov 15, 2024",
+    category: "Cloud",
+    readTime: "5 min read",
+    slug: "cloud-infrastructure-future",
+  },
+  {
+    id: 2,
+    title: "AI and Data Analytics: Driving Intelligent Decisions",
+    excerpt: "Learn how artificial intelligence and data analytics can unlock hidden insights in your business data.",
+    image: "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3TQ4lkqEIPvWxodpetk7MAU2Y64L0nbHimhwFJ",
+    author: "Abhishek Goswami",
+    date: "Nov 12, 2024",
+    category: "Data and AI",
+    readTime: "7 min read",
+    slug: "ai-data-analytics-decisions",
+  },
+  {
+    id: 3,
+    title: "Cybersecurity Best Practices for 2024",
+    excerpt: "Essential security strategies to protect your digital assets and maintain compliance in today's threat landscape.",
+    image: "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3TfCvbh57xJlUBTxoKNjdRwC7LA3DHVrqEPein",
+    author: "Riya Verma",
+    date: "Nov 10, 2024",
+    category: "Security",
+    readTime: "6 min read",
+    slug: "cybersecurity-best-practices-2024",
+  },
+  {
+    id: 4,
+    title: "Remote Work Solutions: Collaboration in the Modern Era",
+    excerpt: "Explore tools and strategies for building productive remote teams in a hybrid work environment.",
+    image: "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3TnlcGIRbF1kYxjJELTtgXZWh9miKUpGfMORAy",
+    author: "Arjun Singh",
+    date: "Nov 8, 2024",
+    category: "Modern Work",
+    readTime: "5 min read",
+    slug: "remote-work-collaboration",
+  },
+  {
+    id: 5,
+    title: "Scalability Patterns for Growing Applications",
+    excerpt: "Design patterns and best practices to ensure your applications scale efficiently as your user base grows.",
+    image: "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3T6Q7Hj10F3i5EKgaZfklhxoT7pYUjVycDdP2e",
+    author: "Sahil Kumar Dev",
+    date: "Nov 5, 2024",
+    category: "Cloud",
+    readTime: "8 min read",
+    slug: "scalability-patterns",
+  },
+  {
+    id: 6,
+    title: "Machine Learning: From Theory to Production",
+    excerpt: "A comprehensive guide to implementing machine learning models in production environments.",
+    image: "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3TQ4lkqEIPvWxodpetk7MAU2Y64L0nbHimhwFJ",
+    author: "Abhishek Goswami",
+    date: "Nov 1, 2024",
+    category: "Data and AI",
+    readTime: "9 min read",
+    slug: "machine-learning-production",
   },
 ];

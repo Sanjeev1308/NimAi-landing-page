@@ -113,7 +113,7 @@ export const ProjectSlider = ({
                         <Image
                           className="rounded-full border border-white"
                           src={item.createrDetails.img || "/images/owner.png"}
-                          alt="Axis Buddy"
+                          alt="NimAi"
                           width={24}
                           height={24}
                         />

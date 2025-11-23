@@ -54,7 +54,7 @@ export const WorkCard = ({
                     <Image
                       className="rounded-full border border-white"
                       src={createrDetails.img || "/images/owner.png"}
-                      alt="Axis Buddy"
+                      alt="Nim Ai"
                       width={24}
                       height={24}
                     />

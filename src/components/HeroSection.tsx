@@ -4,24 +4,23 @@ import ServiceItem from "./_components/ServiceCard";
 import { Cover } from "./ui/cover";
 import { TextScramble } from "./ui/text-scramble";
 
-const services = ["UI/UX", "Development", "Editing", "Graphic"];
+const services = ["Cloud", "Data and AI", "Security", "Modern Work"];
 
 const HeroSection = () => {
   return (
     <main className="mt-14 lg:mt-20 space-y-4 lg:space-y-8">
       <h1 className="text-3xl md:text-6xl font-semibold max-w-7xl mx-auto md:text-center relative bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 via-neutral-700 to-neutral-700 dark:from-neutral-800 dark:via-white dark:to-white leading-10 text-center">
-        Elevate your business with <br />{" "}
+        Design Intelligent Cloud Solution<br />
         <Cover>
           <TextScramble duration={2} characterSet="ZBVJBDFVZJFJSBVDKBK">
-            Axis Buddy Services
+            At NimAi
           </TextScramble>
         </Cover>
+        <br />
+        <span className="text-lg md:text-2xl font-normal text-gray-600 dark:text-gray-400">
+          that power modern infrastructure with precision and reliability.
+        </span>
       </h1>
-
-      <p className="text-center text-xl text-gray-500">
-        Schedule a call with us to discuss your business and get a quote in
-        minutes
-      </p>
 
       <div className="md:flex md:justify-center items-center gap-x-4 ">
         <div className="flex items-center gap-x-4 md:gap-x-3 w-full md:w-fit">
