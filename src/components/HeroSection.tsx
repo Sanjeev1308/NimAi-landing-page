@@ -3,6 +3,7 @@ import CustomButton from "./_components/CustomButton";
 import ServiceItem from "./_components/ServiceCard";
 import { Cover } from "./ui/cover";
 import { TextScramble } from "./ui/text-scramble";
+import { AnimatedButton } from "./_components/AnimatedButton";
 
 const services = ["Cloud", "Data and AI", "Security", "Modern Work"];
 
@@ -10,7 +11,8 @@ const HeroSection = () => {
   return (
     <main className="mt-14 lg:mt-20 space-y-4 lg:space-y-8">
       <h1 className="text-3xl md:text-6xl font-semibold max-w-7xl mx-auto md:text-center relative bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 via-neutral-700 to-neutral-700 dark:from-neutral-800 dark:via-white dark:to-white leading-10 text-center">
-        Design Intelligent Cloud Solution<br />
+        Design Intelligent Cloud Solution
+        <br />
         <Cover>
           <TextScramble duration={2} characterSet="ZBVJBDFVZJFJSBVDKBK">
             At NimAi
@@ -24,14 +26,14 @@ const HeroSection = () => {
 
       <div className="md:flex md:justify-center items-center gap-x-4 ">
         <div className="flex items-center gap-x-4 md:gap-x-3 w-full md:w-fit">
-          <CustomButton
+          {/* <CustomButton
             target="_blank"
             variant={"outline"}
             className="py-7 px-10 md:px-7 mb-4 md:mb-0"
             link="https://www.linkedin.com/in/axis-buddy/"
           >
             <FaLinkedin size={32} />
-          </CustomButton>
+          </CustomButton> */}
 
           <CustomButton
             linkClassName="w-full md:w-fit"
@@ -42,21 +44,15 @@ const HeroSection = () => {
           </CustomButton>
         </div>
         <div className="flex items-center gap-x-4 md:gap-x-3 w-full md:w-fit">
-          <CustomButton
-            linkClassName="w-full md:w-fit"
-            link="/showcase"
-            variant={"outline"}
-            className="py-7 px-10 md:px-16 md:text-xl w-full"
-          >
-            Show Case
-          </CustomButton>
-          <CustomButton
+          <AnimatedButton>Explore Now</AnimatedButton>
+
+          {/* <CustomButton
             target="_blank"
             link="https://wa.me/918960973119"
             className="py-7 px-10 md:px-7 mb-4 md:mb-0"
           >
             <FaWhatsapp />
-          </CustomButton>
+          </CustomButton> */}
         </div>
       </div>
 

@@ -17,9 +17,9 @@ export default function Home() {
         <HeroSection />
         <AboutUs />
         <Stats />
-        <CreativeProcess />
+        {/* <CreativeProcess /> */}
         <Guarantees />
-        <Testimonials speed="slow" items={testimonials} direction="right" />
+        {/* <Testimonials speed="slow" items={testimonials} direction="right" /> */}
         <Blog />
         <ContactUs />
       </div>
