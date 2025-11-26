@@ -1,10 +1,11 @@
-"use client"
+"use client";
 
 import React, { useEffect, useState } from "react";
 import { cn } from "@/lib/utils";
 import { Card, CardContent } from "@/components/ui/card";
 import Image from "next/image";
 import { services } from "@/utils/data";
+import Link from "next/link";
 
 export const ServiceSlider = ({
   direction = "left",
@@ -98,6 +99,15 @@ export const ServiceSlider = ({
                 <p className="text-sm text-gray-600 dark:text-gray-400 mt-2 line-clamp-3">
                   {item.description}
                 </p>
+
+                <Link href={item.href}>
+                  <button
+                    type="button"
+                    className="text-black bg-white border  border-default mt-2 hover:bg-neutral-secondary-medium hover:text-heading hover:scale-10 focus:ring-neutral-tertiary-soft shadow-xs font-medium leading-5 rounded-2xl text-sm px-5 py-1.5 focus:outline-none "
+                  >
+                    Read More
+                  </button>
+                </Link>
               </CardContent>
             </Card>
           </li>

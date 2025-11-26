@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import "./AnimationTesting.css";
-import defaultImage from "@/assets/Default.png";
+// import defaultImage from "@/assets/Default.png";
 import Image from "next/image";
 
 const AnimationTesting: React.FC = () => {
@@ -10,9 +10,7 @@ const AnimationTesting: React.FC = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    // Initialize isMobile on client side
     setIsMobile(window.innerWidth <= 600);
-
     const handleResize = () => {
       setIsMobile(window.innerWidth <= 600);
     };

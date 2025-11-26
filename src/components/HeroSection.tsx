@@ -1,6 +1,6 @@
 import { AnimatedButton } from "./_components/AnimatedButton";
 import CustomButton from "./_components/CustomButton";
-import ServiceItem from "./_components/ServiceCard";
+// import ServiceItem from "./_components/ServiceCard";
 import { Cover } from "./ui/cover";
 import { TextScramble } from "./ui/text-scramble";
 // import OrbitalServices from "./_components/HeroAnimation";
@@ -68,14 +68,14 @@ const HeroSection = () => {
         </div>
       </div>
 
-      <div
+      {/* <div
         className="grid grid-cols-2 md:grid-cols-4 gap-x-4 gap-y-8 items-center text-left md:justify-items-center md:mx-auto pt-6 md:mt-16"
         id="service"
       >
         {services.map((service, index) => (
           <ServiceItem key={index} text={service} />
         ))}
-      </div>
+      </div> */}
     </main>
   );
 };

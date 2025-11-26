@@ -19,16 +19,21 @@ export function AnimatedButton({
       className={`relative inline-block px-10 py-3.5 md:text-lg text-sm w-full font-medium uppercase tracking-widest text-muted-foreground dark:text-[#d0c9c9] bg-transparent overflow-hidden transition-all duration-300 ease-linear hover:text-foreground dark:hover:text-white group ${className}`}
     >
       {/* Top border that expands on hover */}
-      <span className="absolute top-0 left-12 right-24 h-px bg-foreground/10 dark:bg-white/10 transition-all duration-500 ease-out group-hover:left-0 group-hover:right-0 group-hover:bg-foreground dark:group-hover:bg-white" />
+      <span
+        className="absolute top-0 left-12 right-24 h-px 
+bg-[linear-gradient(to_right,#FA8B31,#FC4950,#D15F8E,#2BB2E0,#8D78BC)]
+transition-all duration-500 ease-out
+group-hover:left-0 group-hover:right-0"
+      />
 
       {/* Bottom border that expands on hover */}
-      <span className="absolute bottom-0 left-24 right-12 h-px bg-foreground/10 dark:bg-white/10 transition-all duration-500 ease-out group-hover:left-0 group-hover:right-0 group-hover:bg-foreground dark:group-hover:bg-white" />
+      <span className="absolute bottom-0 left-24 right-12 h-px bg-[linear-gradient(to_right,#FA8B31,#FC4950,#D15F8E,#2BB2E0,#8D78BC)] transition-all duration-500 ease-out group-hover:left-0 group-hover:right-0 " />
 
       {/* Left border that expands on hover */}
-      <span className="absolute top-12 bottom-24 left-0 w-px bg-foreground/10 dark:bg-white/10 transition-all duration-500 ease-out group-hover:top-0 group-hover:bottom-0 group-hover:bg-foreground dark:group-hover:bg-white" />
+      <span className="absolute top-12 bottom-24 left-0 w-px bg-[linear-gradient(to_right,#FA8B31,#FC4950,#D15F8E,#2BB2E0,#8D78BC)] transition-all duration-500 ease-out group-hover:top-0 group-hover:bottom-0 " />
 
       {/* Right border that expands on hover */}
-      <span className="absolute top-24 bottom-12 right-0 w-px bg-foreground/10 dark:bg-white/10 transition-all duration-500 ease-out group-hover:top-0 group-hover:bottom-0 group-hover:bg-foreground dark:group-hover:bg-white" />
+      <span className="absolute top-24 bottom-12 right-0 w-px bg-[linear-gradient(to_right,#FA8B31,#FC4950,#D15F8E,#2BB2E0,#8D78BC)] transition-all duration-500 ease-out group-hover:top-0 group-hover:bottom-0 " />
 
       {/* Button text */}
       <span className="relative z-10">{children}</span>
