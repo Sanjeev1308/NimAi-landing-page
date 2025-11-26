@@ -7,9 +7,12 @@ import Image from "next/image";
 const AnimationTesting: React.FC = () => {
   const [activeService, setActiveService] = useState<number | null>(null);
   const [rotation, setRotation] = useState(0);
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 600);
+  const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
+    // Initialize isMobile on client side
+    setIsMobile(window.innerWidth <= 600);
+
     const handleResize = () => {
       setIsMobile(window.innerWidth <= 600);
     };
