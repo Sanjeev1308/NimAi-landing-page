@@ -10,7 +10,6 @@ const AnimationTesting: React.FC = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    setIsMobile(window.innerWidth <= 600);
     const handleResize = () => {
       setIsMobile(window.innerWidth <= 600);
     };
