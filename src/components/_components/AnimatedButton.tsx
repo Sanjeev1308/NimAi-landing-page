@@ -16,7 +16,7 @@ export function AnimatedButton({
   return (
     <button
       onClick={onClick}
-      className={`relative inline-block px-10 py-3.5 text-lg font-medium uppercase tracking-widest text-muted-foreground dark:text-[#d0c9c9] bg-transparent overflow-hidden transition-all duration-300 ease-linear hover:text-foreground dark:hover:text-white group ${className} `}
+      className={`relative inline-block px-10 py-3.5 md:text-lg text-sm w-full font-medium uppercase tracking-widest text-muted-foreground dark:text-[#d0c9c9] bg-transparent overflow-hidden transition-all duration-300 ease-linear hover:text-foreground dark:hover:text-white group ${className}`}
     >
       {/* Top border that expands on hover */}
       <span className="absolute top-0 left-12 right-24 h-px bg-foreground/10 dark:bg-white/10 transition-all duration-500 ease-out group-hover:left-0 group-hover:right-0 group-hover:bg-foreground dark:group-hover:bg-white" />
