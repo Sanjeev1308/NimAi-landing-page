@@ -196,7 +196,7 @@
 
 .service-2 {
   top: 50%;
-  right: 20px;
+  right: 23px;
   margin-top: -30px;
 }
 
@@ -208,7 +208,7 @@
 
 .service-4 {
   top: 50%;
-  left: 20px;
+  left: 24px;
   margin-top: -30px;
 }
 
@@ -364,12 +364,12 @@
   }
   .service-2 {
     top: 50%;
-    right: 10px;
+    right: 15px;
     margin-top: -30px;
   }
   .service-4 {
     top: 50%;
-    left: 10px;
+    left: 16px;
     margin-top: -30px;
   }
   .service-1 .service-label {

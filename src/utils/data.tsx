@@ -6,25 +6,29 @@ export const services = [
     title: "Cloud",
     description:
       "Scalable cloud infrastructure solutions designed to optimize your business operations and reduce infrastructure costs.",
+    href: "/Services/DataAi",
   },
   {
     icon: "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3TQ4lkqEIPvWxodpetk7MAU2Y64L0nbHimhwFJ",
     title: "Data and AI",
     description:
       "Harness the power of artificial intelligence and advanced data analytics to drive intelligent business decisions and innovation.",
+    href: "/Services",
   },
   {
     icon: "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3TfCvbh57xJlUBTxoKNjdRwC7LA3DHVrqEPein",
     title: "Security",
     description:
       "Comprehensive security solutions to protect your digital assets with advanced threat detection and compliance management.",
+    href: "/Services",
   },
   {
     icon: "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3TnlcGIRbF1kYxjJELTtgXZWh9miKUpGfMORAy",
     title: "Modern Work",
     description:
       "Enable your workforce with modern collaboration tools and productivity solutions for seamless remote and hybrid work environments.",
-  }
+    href: "/Services",
+  },
 ];
 
 export const features = [
@@ -209,8 +213,10 @@ export const blogs = [
   {
     id: 1,
     title: "Cloud Infrastructure: The Future of Business Operations",
-    excerpt: "Discover how cloud solutions are transforming modern businesses and reducing operational costs.",
-    image: "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3T6Q7Hj10F3i5EKgaZfklhxoT7pYUjVycDdP2e",
+    excerpt:
+      "Discover how cloud solutions are transforming modern businesses and reducing operational costs.",
+    image:
+      "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3T6Q7Hj10F3i5EKgaZfklhxoT7pYUjVycDdP2e",
     author: "Sahil Kumar Dev",
     date: "Nov 15, 2024",
     category: "Cloud",
@@ -220,8 +226,10 @@ export const blogs = [
   {
     id: 2,
     title: "AI and Data Analytics: Driving Intelligent Decisions",
-    excerpt: "Learn how artificial intelligence and data analytics can unlock hidden insights in your business data.",
-    image: "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3TQ4lkqEIPvWxodpetk7MAU2Y64L0nbHimhwFJ",
+    excerpt:
+      "Learn how artificial intelligence and data analytics can unlock hidden insights in your business data.",
+    image:
+      "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3TQ4lkqEIPvWxodpetk7MAU2Y64L0nbHimhwFJ",
     author: "Abhishek Goswami",
     date: "Nov 12, 2024",
     category: "Data and AI",
@@ -231,8 +239,10 @@ export const blogs = [
   {
     id: 3,
     title: "Cybersecurity Best Practices for 2024",
-    excerpt: "Essential security strategies to protect your digital assets and maintain compliance in today's threat landscape.",
-    image: "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3TfCvbh57xJlUBTxoKNjdRwC7LA3DHVrqEPein",
+    excerpt:
+      "Essential security strategies to protect your digital assets and maintain compliance in today's threat landscape.",
+    image:
+      "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3TfCvbh57xJlUBTxoKNjdRwC7LA3DHVrqEPein",
     author: "Riya Verma",
     date: "Nov 10, 2024",
     category: "Security",
@@ -242,8 +252,10 @@ export const blogs = [
   {
     id: 4,
     title: "Remote Work Solutions: Collaboration in the Modern Era",
-    excerpt: "Explore tools and strategies for building productive remote teams in a hybrid work environment.",
-    image: "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3TnlcGIRbF1kYxjJELTtgXZWh9miKUpGfMORAy",
+    excerpt:
+      "Explore tools and strategies for building productive remote teams in a hybrid work environment.",
+    image:
+      "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3TnlcGIRbF1kYxjJELTtgXZWh9miKUpGfMORAy",
     author: "Arjun Singh",
     date: "Nov 8, 2024",
     category: "Modern Work",
@@ -253,8 +265,10 @@ export const blogs = [
   {
     id: 5,
     title: "Scalability Patterns for Growing Applications",
-    excerpt: "Design patterns and best practices to ensure your applications scale efficiently as your user base grows.",
-    image: "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3T6Q7Hj10F3i5EKgaZfklhxoT7pYUjVycDdP2e",
+    excerpt:
+      "Design patterns and best practices to ensure your applications scale efficiently as your user base grows.",
+    image:
+      "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3T6Q7Hj10F3i5EKgaZfklhxoT7pYUjVycDdP2e",
     author: "Sahil Kumar Dev",
     date: "Nov 5, 2024",
     category: "Cloud",
@@ -264,8 +278,10 @@ export const blogs = [
   {
     id: 6,
     title: "Machine Learning: From Theory to Production",
-    excerpt: "A comprehensive guide to implementing machine learning models in production environments.",
-    image: "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3TQ4lkqEIPvWxodpetk7MAU2Y64L0nbHimhwFJ",
+    excerpt:
+      "A comprehensive guide to implementing machine learning models in production environments.",
+    image:
+      "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3TQ4lkqEIPvWxodpetk7MAU2Y64L0nbHimhwFJ",
     author: "Abhishek Goswami",
     date: "Nov 1, 2024",
     category: "Data and AI",
