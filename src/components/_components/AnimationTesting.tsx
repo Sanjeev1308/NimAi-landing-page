@@ -10,13 +10,6 @@ const AnimationTesting: React.FC = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-<<<<<<<<< Temporary merge branch 1
-    // Initialize isMobile on client side
-    setIsMobile(window.innerWidth <= 600);
-
-=========
-    setIsMobile(window.innerWidth <= 600);
->>>>>>>>> Temporary merge branch 2
     const handleResize = () => {
       setIsMobile(window.innerWidth <= 600);
     };
