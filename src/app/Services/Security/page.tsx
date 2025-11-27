@@ -1,5 +1,3 @@
-import DataAIServices from "./DataAi/DataAiServices";
-
 function page() {
   return <div></div>;
 }

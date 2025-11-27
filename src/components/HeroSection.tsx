@@ -11,8 +11,8 @@ const services = ["Cloud", "Data and AI", "Security", "Modern Work"];
 const HeroSection = () => {
   return (
     <main className="mt-14 lg:mt-15 space-y-4 lg:space-y-8">
-      <div className=" flex flex-col md:flex-row">
-        <div className="md:w-[60%]">
+      <div className=" flex flex-col lg:flex-row sm:flex-col sm:justify-center">
+        <div className="lg:w-[60%]">
           <h1 className="text-2xl md:text-6xl font-semibold max-w-7xl mx-auto md:text-center relative bg-clip-text text-transparent bg-gradient-to-b from-neutral-800 via-neutral-700 to-neutral-700 dark:from-neutral-800 dark:via-white dark:to-white leading-10 text-center">
             <Cover>
               <TextScramble duration={2} characterSet="ZBVJBDFVZJFJSBVDKBK">
@@ -62,7 +62,7 @@ const HeroSection = () => {
           </CustomButton> */}
           </div>
         </div>
-        <div className="md:w-[40%] w-[100%] flex justify-center">
+        <div className="lg:w-[40%]  lg:mt-1 w-[100%] flex justify-center sm:mt-8">
           {/* <OrbitalServices /> */}
           <AnimationTesting />
         </div>

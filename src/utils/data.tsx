@@ -6,28 +6,28 @@ export const services = [
     title: "Cloud",
     description:
       "Scalable cloud infrastructure solutions designed to optimize your business operations and reduce infrastructure costs.",
-    href: "/Services/DataAi",
+    href: "/Services/Cloud",
   },
   {
     icon: "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3TQ4lkqEIPvWxodpetk7MAU2Y64L0nbHimhwFJ",
     title: "Data and AI",
     description:
       "Harness the power of artificial intelligence and advanced data analytics to drive intelligent business decisions and innovation.",
-    href: "/Services",
+    href: "/Services/DataAi",
   },
   {
     icon: "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3TfCvbh57xJlUBTxoKNjdRwC7LA3DHVrqEPein",
     title: "Security",
     description:
       "Comprehensive security solutions to protect your digital assets with advanced threat detection and compliance management.",
-    href: "/Services",
+    href: "/Services/Security",
   },
   {
     icon: "https://n1edx68t7x.ufs.sh/f/dXpVSNsUdw3TnlcGIRbF1kYxjJELTtgXZWh9miKUpGfMORAy",
     title: "Modern Work",
     description:
       "Enable your workforce with modern collaboration tools and productivity solutions for seamless remote and hybrid work environments.",
-    href: "/Services",
+    href: "/Services/ModernWork",
   },
 ];
 

@@ -10,7 +10,6 @@ const AnimationTesting: React.FC = () => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    setIsMobile(window.innerWidth <= 600);
     const handleResize = () => {
       setIsMobile(window.innerWidth <= 600);
     };
@@ -61,6 +60,7 @@ const AnimationTesting: React.FC = () => {
       <div className="orbital-container">
         <div className="orbit border-#002133 dark:border-#64C8FF4D"></div>
 
+        <div className="paint-gradient-fill"></div>
         {/* Rotating Dot */}
         <div
           className="rotating-dot"
@@ -73,32 +73,82 @@ const AnimationTesting: React.FC = () => {
 
         {/* Services */}
         <div
-          className={`service service-1 ${activeService === 1 ? "active" : ""}`}
+          className={`service bg-black dark:bg-white service-1 ${
+            activeService === 1 ? "active" : ""
+          }`}
         >
-          <span className="service-icon">🎨</span>
+          <div className="w-full h-auto flex justify-center">
+            <Image
+              src="/images/hero/data.png"
+              alt="photo"
+              width={500}
+              height={300}
+              className="w-[75%]  h-auto"
+            />
+          </div>
+
           <span className="service-label text-black dark:text-white">
             Data & AI
           </span>
         </div>
 
         <div
-          className={`service service-2 ${activeService === 2 ? "active" : ""}`}
+          className={`service bg-black dark:bg-white service-2 ${
+            activeService === 2 ? "active" : ""
+          }`}
         >
-          <span className="service-icon">💻</span>
+          <span className="service-icon">
+            {" "}
+            <div className="w-full h-auto flex justify-center">
+              <Image
+                src="/images/hero/cloud.png"
+                alt="photo"
+                width={800}
+                height={600}
+                className="w-[75%]  h-auto"
+              />
+            </div>
+          </span>
           <span className="service-label">Cloud</span>
         </div>
 
         <div
-          className={`service service-3 ${activeService === 3 ? "active" : ""}`}
+          className={`service bg-black dark:bg-white service-3 ${
+            activeService === 3 ? "active" : ""
+          }`}
         >
-          <span className="service-icon">📱</span>
+          <span className="service-icon">
+            {" "}
+            <div className="w-full h-auto flex justify-center">
+              <Image
+                src="/images/hero/security.png"
+                alt="photo"
+                width={800}
+                height={600}
+                className="w-[75%]  h-auto"
+              />
+            </div>
+          </span>
           <span className="service-label">Security</span>
         </div>
 
         <div
-          className={`service service-4 ${activeService === 4 ? "active" : ""}`}
+          className={`service bg-black dark:bg-white service-4 ${
+            activeService === 4 ? "active" : ""
+          }`}
         >
-          <span className="service-icon">🚀</span>
+          <span className="service-icon">
+            {" "}
+            <div className="w-full h-auto flex justify-center">
+              <Image
+                src="/images/hero/modern.png"
+                alt="photo"
+                width={800}
+                height={600}
+                className="w-[70%]  h-auto"
+              />
+            </div>
+          </span>
           <span className="service-label">Modern Work</span>
         </div>
 
