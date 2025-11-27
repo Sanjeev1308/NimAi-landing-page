@@ -181,7 +181,11 @@ const Header: React.FC = () => {
         {/* Close Button */}
         <button
           className="absolute top-4 right-4 text-xl"
-          onClick={() => setMobileDrawer(false)}
+          onClick={() => {
+            setMobileDrawer(false);
+            setMenuOpen(null);
+            setChildOpen(null);
+          }}
         >
           ✖
         </button>
