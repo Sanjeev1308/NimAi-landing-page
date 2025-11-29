@@ -81,7 +81,7 @@ const Header: React.FC = () => {
   return (
     <>
       <Card
-        className={`top-0 sticky md:mx-auto z-30 xl:w-full bg-transparent flex-between 
+        className={`top-0 sticky md:mx-auto z-30 xl:w-full  bg-transparent flex-between 
         px-1 md:px-4 mx-3 transition-all duration-200 
         ${
           sticky
@@ -171,12 +171,24 @@ const Header: React.FC = () => {
           </button>
         </div>
       </Card>
-
       {/* Mobile Drawer */}
+      {mobileDrawer && (
+        <div
+          className="fixed inset-0 bg-black z-40 md:hidden bg-opacity-40"
+          onClick={() => {
+            setMobileDrawer(false);
+            setMenuOpen(null);
+            setChildOpen(null);
+          }}
+        >
+          {" "}
+        </div>
+      )}
       <div
         className={`fixed top-0 right-0 h-full w-72 bg-white dark:bg-[#000000] shadow-xl z-50 
-  transform transition-transform duration-300 md:hidden
+  transform transition-transform duration-300 ease-in-out md:hidden
   ${mobileDrawer ? "translate-x-0" : "translate-x-full"}`}
+        onClick={(e) => e.stopPropagation()}
       >
         {/* Close Button */}
         <button

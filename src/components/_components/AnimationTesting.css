@@ -80,12 +80,10 @@ body.dark-mode .paint-gradient-fill {
 
 .rotating-dot {
   position: absolute;
-
   width: 16px;
   height: 16px;
   border-radius: 50%;
   /* background: radial-gradient(circle, #ffffff, #64c8ff); */
-
   box-shadow: 0 0 20px rgba(100, 200, 255, 0.8),
     0 0 40px rgba(100, 200, 255, 0.5);
   background: linear-gradient(
